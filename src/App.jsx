@@ -1,10 +1,10 @@
-import Carousel from "./components/Carousel/Carousel";
+import Carousel from "./components/Carousel";
 import "./App.css";
-import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
-import Counter from "./components/Counter/Counter";
-import Dice from "./components/Dice/Dice";
-import DiscoButton from "./components/DiscoButton/DiscoButton";
-import LikeButton from "./components/LikeButton/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
+import Counter from "./components/Counter";
+import Dice from "./components/Dice";
+import DiscoButton from "./components/DiscoButton";
+import LikeButton from "./components/LikeButton";
 
 function App() {
   return (

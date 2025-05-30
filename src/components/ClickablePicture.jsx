@@ -1,6 +1,6 @@
 import { useState } from "react";
-import imageWithGlasses from "../../assets/images/maxence-glasses.png"
-import imageWithoutGlasses from "../../assets/images/maxence.png"
+import imageWithGlasses from "../assets/images/maxence-glasses.png"
+import imageWithoutGlasses from "../assets/images/maxence.png"
  
 function ClickablePicture({ imageOn = imageWithGlasses, imageOff = imageWithoutGlasses }) {
   const [isOn, setIsOn] = useState(false)
